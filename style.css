@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 1450px;
+    margin: 0 auto;
+}
+.clear-float{
+    clear: both;
+}
+#header-section{
+    background: url("images/header_bg.png") ;
+    min-height:125px;;
+}
+.header-logo{
+    padding: 20px 0;
+    display: inline-block;
+}
+.header-left{
+    width: 55%;
+    float: left;
+}
+.header-left a{
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+}
+.header-left h3{
+    font-family:sans-serif;
+    float: left;
+    margin-top: 17px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+.header-right{
+    width: 45%;
+    float: left;
+}
+.header-navbar{
+    padding: 20px 0;
+}
+.navbar-ul{
+    float: right;
+    margin-top: 10px;
+}
+.navbar-ul li{
+    float: left;
+    list-style: none;
+}
+.navbar-ul a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-right: 45px;
+}
+.header-right .telephone{
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+.telephone{
+    padding-right: 45px;
+    margin-bottom: 10px;
+}
+.telephone .number{
+    font-weight: 900;display: inline-block;
+    margin-left: 10px;
+}
+/* banner section */
+#banner-section{
+    background: url("images/body_bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 1235px;
+    
+}
+#banner-section .container{
+    position: relative;
+}
+.banner-left{
+    width: 58%;
+    float: left;
+}
+.banner-left h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    padding-right: 190px;
+    margin-top: 230px;
+}
+.banner-left h3{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    color: #5e5d5d;
+    font-size: 22px;
+    line-height: 22px;
+}
+.banner-right{
+    width: 42%;
+    float: left;
+    background: url("images/container_bg.png") no-repeat;
+    background-size: cover;
+    min-height: 1235px;
+}
+.banner-form-div{
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+.banner-form-div form{
+    margin-top: 30px;
+}
+.form-description{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.banner-form-div label{
+    display: block;
+    font-size: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 900;
+}
+.banner-form-div input{
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 20px 10px;
+}
+.form-header{
+    margin-top: 30px;
+}
+.form-header a{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+.form-header h3{
+    float: left;
+    margin-top: 20px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.download-guide-div{
+    background-color: #000000;
+    margin-top: 40px;
+    padding: 30px;
+}
+.download-guide-div h3{
+    float: left;
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.download-guide-div a img{
+    width: 60px;
+}
+.download-guide-div a{
+    float: right;
+    display: inline-block;
+    margin-top: 15px;
+}
+.form-description-last{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    line-height: 28px;
+    padding: 0 42px;
+}
+/* about section */
+#about-section{
+    background-color: #4c971a;
+}
+.about-section-wrapper,
+.client-section-wrapper{
+    padding: 60px 0;
+}
+.about-section-wrapper h2{
+    float: left;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    line-height: 60px;
+}
+.prospect-shop-title-right{
+    float: right;
+    margin-right: 140px;
+}
+.prospect-shop-title-right span{ display:block;
+    float: left;
+    background: url("images/logo_p.png")no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.prospect-shop-title-right h3{
+    float: left;
+   margin-top: 12px;
+   font-size: 32px;
+   line-height: 32px;
+   color: #ffffff;
+}
+.about-card-wrapper{
+    margin-top: 30px;
+}
+.about-card{
+    float: left;
+    width: 33.33%;
+    height: 390px;
+}
+.about-card h3{
+    text-transform: uppercase;
+    font-size: 27px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 600;
+    height: 100px;
+}
+.about-card-inner-content{
+    margin-right: 29%;
+    margin-top: 30px;
+}
+.about-card-inner-content-middle{
+    margin-right: 22%;
+    margin-left: 8%;
+    margin-top: 30px;
+}
+.about-card-inner-content-right{
+    margin-right: 18%;
+    margin-top: 30px;
+    margin-left: 12%;
+}
+.about-card-icon-header{
+    height: 70px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.about-card-icon-header img{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.about-card .card-description{
+    
+    color: #ffffff;
+    font-size: 22px;
+    line-height:22px ;
+    font-weight: 200;
+    padding-right: 16px
+}
+/* client section */
+.client-section-wrapper h2{
+    float: left;
+    color: #4c971a;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+}
+.client-prospect-shop-title-right{
+    float: right;
+    margin-right: 140px;
+}
+.client-prospect-shop-title-right span{
+    display: inline-block;
+    background: url("images/logo_p_alt.png")no-repeat;
+    background-size: cover;
+   width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+}
+.client-prospect-shop-title-right h3{
+    float: left;
+   margin-top: 12px;
+   font-size: 32px;
+   line-height: 32px;
+   color: #000000;
+}
+.client-card{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    /* border: 2px solid gray; */
+}
+.clients-card-wrapper{
+    margin-top: 80px;
+    margin-right: -60px;
+}
+.client-card-inner-content{
+    margin-right: 195px;
+}
+.client-card-image-header .client-image{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.client-card-image-header{
+    margin-bottom: 35px;
+}
+.client-card-image-header h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 100;
+    color: #4c971a;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+.client-card-image-header h5{
+    font-size: 20px;
+    line-height: 30px;
+    color: #808080;
+    /* margin: 7px 0; */
+}
+.client-designation{
+    font-size: 22px;
+    line-height: 22px;
+}
+.client-comment{
+    font-size: 22px;
+    line-height: 28px;
+    min-height: 270px;
+}
+/* image section */
+.last-section-image-div,
+.last-section-image-div-content{
+    float: left;
+    margin: 30px 42px;
+}
+.last-section-image-div{
+    margin-top: 106px;
+}
+.last-section-image-div img{
+    width: 140px;
+}
+.images-wrapper{
+    margin: 0 -42px;
+}
+.last-section-image-div-content{
+    background: url("images/container_bg_alt.png") no-repeat;
+    min-width: 551px;
+    min-height: 272px;
+    background-size: cover;
+    position: relative;
+}
+.last-section-image-div-inner{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    margin: 30px;
+}
+.last-section-image-div-inner h3{
+    float: left;
+    color: #ffffff;
+    font-size: 33px;
+    line-height: 33px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.last-section-image-div-inner a{
+    display: inline-block;
+    float: left;
+}
+.guide{
+    display: block;
+}
+/* footer section */
+#footer-section{
+    background: url("images/footer.png");
+    min-height: 107px;
+}
+.footer-content{
+   color: #ffffff;
+   padding-top: 50px;
+   font-weight: 200;
+   letter-spacing: 1px;
+}
