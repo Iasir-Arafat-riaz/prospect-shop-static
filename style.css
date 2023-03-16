@@ -13,17 +13,21 @@
 }
 #header-section{
     background: url("images/header_bg.png") ;
-    min-height:125px;;
+    min-height:125px;
 }
 .header-logo{
     padding: 20px 0;
     display: inline-block;
 }
+.header-logo .hidden-icon{
+    display: none;
+    float: right;
+}
 .header-left{
     width: 55%;
     float: left;
 }
-.header-left a{
+.header-left .logo-icon{
     display: inline-block;
     text-decoration: none;
     float: left;
@@ -79,8 +83,7 @@
 /* banner section */
 #banner-section{
     background: url("images/body_bg.jpg") no-repeat;
-    background-size: cover;
-    min-height: 1235px;
+    background-size: 100% 100%;
     
 }
 #banner-section .container{
@@ -109,16 +112,15 @@
     width: 42%;
     float: left;
     background: url("images/container_bg.png") no-repeat;
-    background-size: cover;
-    min-height: 1235px;
+    background-size: 100% 100%;
 }
 .banner-form-div{
-    padding: 20px;
+    padding: 20px 20px 113px;
     width: 70%;
     margin: 0 auto;
 }
 .banner-form-div form{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .form-description{
     color: #ffffff;
@@ -136,8 +138,8 @@
 }
 .banner-form-div input{
     width: 100%;
-    margin-bottom: 25px;
-    padding: 20px 10px;
+    margin-bottom: 20px;
+    padding: 17px 10px;
 }
 .form-header{
     margin-top: 30px;
@@ -156,7 +158,7 @@
 }
 .download-guide-div{
     background-color: #000000;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 30px;
 }
 .download-guide-div h3{
@@ -177,9 +179,8 @@
 .form-description-last{
     color: #ffffff;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 20px;
-    line-height: 20px;
     line-height: 28px;
     padding: 0 42px;
 }
@@ -266,7 +267,13 @@
     font-size: 22px;
     line-height:22px ;
     font-weight: 200;
-    padding-right: 16px
+    padding-right: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    padding-bottom: 10px;
 }
 /* client section */
 .client-section-wrapper h2{
@@ -395,3 +402,119 @@
    font-weight: 200;
    letter-spacing: 1px;
 }
+@media screen and (max-width: 576px) {
+    .header-logo{
+        width: 100%;
+        padding: 40px 10px 9px;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-left{
+        width: 100%;
+        float: left;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-left h3 {
+        margin-top: 17px;
+        font-size: 22px;
+        line-height: 15px;
+        margin-left: 12px;
+    }
+    .header-logo .hidden-icon{
+        display: block;
+        margin-right: 10px;
+    }
+    .header-logo a img{
+        width: 50px;
+    }
+    #banner-section{
+        background-size: 167% 30%;
+    }
+    /* for banner section */
+    .banner-left{
+        width: 100%;
+        min-height: 50vh;
+        position: relative;
+    }
+    .banner-right-wrapper{
+        margin: 0 -10px
+    }
+    .banner-right{
+        width: 100%;
+        margin: 0;
+    }
+    .banner-left h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 10px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+    .banner-left h3{
+        bottom: 0;
+        font-size: 16px;
+    line-height: 16px;
+    padding: 20px 30px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }
+    .form-header img{
+        width: 40px;
+    }
+    .form-header h3{
+        font-size: 22px;
+        line-height: 0;
+    }
+    .form-description{
+        font-size: 16px;
+    }
+    .download-guide-div h3{
+        font-size: 26px;
+    }
+    .download-guide-div {
+        margin-top: 10px;
+        padding: 20px 16px;
+        /* margin-left: 20px; */
+    }
+    .download-guide-div a img{
+        width: 50px;
+    }
+    .form-description-last{
+        margin-top: 16px;
+        padding: 0;
+        font-size: 17px;
+    }
+    /* for about */
+    .about-card{
+        width: 100%;
+        height: 100%;
+    }
+    .about-section-title{
+padding: 10px;
+    }
+    .prospect-shop-title-right{
+        margin-right:0;
+    }
+    .prospect-shop-title-right h3{
+        display: none;
+    }
+
+    .about-card-inner-content,.about-card-inner-content-middle,.about-card-inner-content-right{
+        margin: 10px 40px;
+    }
+    /* client section */
+    .client-card{
+        width: 100%;
+    }
+    .clients-card-wrapper{
+        margin-right: 0px;
+    }
+    .client-card-inner-content{
+        margin: 10px 40px;
+    }
+
+  }
