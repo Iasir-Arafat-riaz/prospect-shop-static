@@ -17,11 +17,18 @@
 }
 .header-logo{
     padding: 20px 0;
-    display: inline-block;
 }
-.header-logo .hidden-icon{
+.header-logo a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+}
+.logo-icon{
+    float: left;
+}
+.hidden-icon{
     display: none;
-    float: right;
+    float: right;  
 }
 .header-left{
     width: 55%;
@@ -40,7 +47,6 @@
     line-height: 40px;
     margin-left: 30px;
 }
-
 .header-right{
     width: 45%;
     float: left;
@@ -83,8 +89,7 @@
 /* banner section */
 #banner-section{
     background: url("images/body_bg.jpg") no-repeat;
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%; 
 }
 #banner-section .container{
     position: relative;
@@ -140,6 +145,8 @@
     width: 100%;
     margin-bottom: 20px;
     padding: 17px 10px;
+    border: 0px;
+    border-radius: 3px;
 }
 .form-header{
     margin-top: 30px;
@@ -307,7 +314,6 @@
     float: left;
     width: 33.33%;
     text-align: center;
-    /* border: 2px solid gray; */
 }
 .clients-card-wrapper{
     margin-top: 80px;
@@ -336,7 +342,6 @@
     font-size: 20px;
     line-height: 30px;
     color: #808080;
-    /* margin: 7px 0; */
 }
 .client-designation{
     font-size: 22px;
@@ -423,11 +428,11 @@
         line-height: 15px;
         margin-left: 12px;
     }
-    .header-logo .hidden-icon{
+    .hidden-icon{
         display: block;
         margin-right: 10px;
     }
-    .header-logo a img{
+    .header-logo  img{
         width: 50px;
     }
     #banner-section{
@@ -448,9 +453,9 @@
     }
     .banner-left h1{
         font-family:Arial, Helvetica, sans-serif;
-        font-size: 10px;
-        line-height: 10px;
-        padding-right: 20px;
+        font-size: 40px;
+        line-height: 50px;
+        padding: 50px;
         margin-top: 30px;
     }
     .banner-left h3{
@@ -494,7 +499,10 @@
         height: 100%;
     }
     .about-section-title{
-padding: 10px;
+        padding: 10px 20px;
+    }
+    .prospect-shop-title-right span{
+        margin-right: 0px;
     }
     .prospect-shop-title-right{
         margin-right:0;
@@ -502,7 +510,6 @@ padding: 10px;
     .prospect-shop-title-right h3{
         display: none;
     }
-
     .about-card-inner-content,.about-card-inner-content-middle,.about-card-inner-content-right{
         margin: 10px 40px;
     }
@@ -514,7 +521,43 @@ padding: 10px;
         margin-right: 0px;
     }
     .client-card-inner-content{
-        margin: 10px 40px;
+        margin: 30px 40px;
     }
-
+    .client-comment{
+        min-height:fit-content;
+        margin-bottom: 50px;
+    }
+    .client-prospect-shop-title-right h3{
+        display: none;
+    }
+    .client-prospect-shop-title-right{
+        margin-right: 0px;
+    }
+    .client-say-title{
+        padding: 10px 20px;
+    }
+    .about-section-wrapper h2,.client-section-wrapper h2{
+        font-size: 50px;
+    }
+    /* image section */
+    .images-wrapper{
+        margin: 0px;
+    }
+    .last-section-image-div{
+        margin:13px ;
+    }
+    .last-section-image-div-content{
+        /* float: none; */
+        min-width: 100%;
+        background-size: cover;
+        margin: 0px;
+    }
+    .last-section-image-div img {
+        width: 117px;
+    }
+    /* footer */
+    .footer-content{
+        padding: 30px 93px 15px;
+        text-align: center;
+    }
   }
