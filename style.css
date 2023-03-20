@@ -548,7 +548,7 @@
     }
     .last-section-image-div-content{
         /* float: none; */
-        min-width: 100%;
+        width: 100%;
         background-size: cover;
         margin: 0px;
     }
