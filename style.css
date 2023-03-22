@@ -5,50 +5,44 @@
     box-sizing: border-box;
 }
 .container {
-    width: 1450px;
+    width: 1350px;
     margin: 0 auto;
 }
 .clear-float{
     clear: both;
 }
 #header-section{
-    background: url("images/header_bg.png") ;
-    min-height:125px;
+    background: url("images/header_bg.png");
+    min-height:123px;
 }
-.header-logo{
+.header-left{
+    width: 33%;
+    float: left;
+}
+.header-left a{
     padding: 20px 0;
-}
-.header-logo a{
     display: inline-block;
     text-decoration: none;
     color: #000000;
-}
-.logo-icon{
-    float: left;
 }
 .hidden-icon{
     display: none;
     float: right;  
 }
-.header-left{
-    width: 55%;
+.header-logo img{
     float: left;
+    /* display: inline-block */
 }
-.header-left .logo-icon{
-    display: inline-block;
-    text-decoration: none;
-    float: left;
-}
-.header-left h3{
-    font-family:sans-serif;
+.header-logo h3{
+    font-family: sans-serif;
     float: left;
     margin-top: 17px;
-    font-size: 40px;
-    line-height: 40px;
-    margin-left: 30px;
+    font-size: 37px;
+    line-height: 44px;
+    margin-left: 20px;
 }
 .header-right{
-    width: 45%;
+    width: 67%;
     float: left;
 }
 .header-navbar{
@@ -66,25 +60,29 @@
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 22px;
     color: #ffffff;
     margin-right: 45px;
+    padding-right: 5px;
 }
-.header-right .telephone{
+.cell-number-div{
     float: right;
+    margin-bottom: 7px;
+}
+.call-text{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+}
+.telephone{
     display: inline-block;
     text-decoration: none;
     font-size: 30px;
     line-height: 30px;
     color: #000000;
-}
-.telephone{
-    padding-right: 45px;
-    margin-bottom: 10px;
-}
-.telephone .number{
-    font-weight: 900;display: inline-block;
     margin-left: 10px;
+    font-weight: 900;
+    padding-right: 45px;
 }
 /* banner section */
 #banner-section{
@@ -132,14 +130,15 @@
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 21px;
 }
 .banner-form-div label{
     display: block;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 23px;
     color: #ffffff;
     font-weight: 900;
+    margin-bottom: 4px;
 }
 .banner-form-div input{
     width: 100%;
@@ -159,29 +158,29 @@
 .form-header h3{
     float: left;
     margin-top: 20px;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 30px;
+    line-height: 34px;
     color: #ffffff;
 }
 .download-guide-div{
     background-color: #000000;
     margin-top: 20px;
-    padding: 30px;
+    padding: 20px 40px;
 }
 .download-guide-div h3{
     float: left;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 35px;
     text-transform: uppercase;
 }
 .download-guide-div a img{
-    width: 60px;
+    width: 52px;
 }
 .download-guide-div a{
     float: right;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .form-description-last{
     color: #ffffff;
@@ -353,48 +352,70 @@
     min-height: 270px;
 }
 /* image section */
-.last-section-image-div,
-.last-section-image-div-content{
+#last-images-section{
+    margin-bottom: -4px;
+}
+.images-wrapper {
+    margin-left: -70px;
+}
+.four-images-div{
     float: left;
-    margin: 30px 42px;
+    min-width: 67%;
+    margin-top: 80px;
 }
-.last-section-image-div{
-    margin-top: 106px;
+.four-images-div .image-div{
+    display: inline-block;
+    min-width: 24%;
 }
-.last-section-image-div img{
-    width: 140px;
+.image-div span{
+    display: inline-block;
+    padding: 55px 75px;
+    margin-left: 60px;
 }
-.images-wrapper{
-    margin: 0 -42px;
+.image-div .image-1{
+    background: url("images/grey_logo_1.png") no-repeat;
+    background-size:100% 100%;
 }
-.last-section-image-div-content{
+.image-div .image-2{
+    background: url("images/grey_logo_2.png") no-repeat;
+    background-size:100% 100%;
+}
+.image-div .image-3{
+    background: url("images/grey_logo_3.png") no-repeat;
+    background-size:100% 100%;
+}
+.image-div .image-4{
+    background: url("images/grey_logo_4.png") no-repeat;
+    background-size:100% 100%;
+}
+.download-div{
+    float: left;
+    min-width: 33%;
     background: url("images/container_bg_alt.png") no-repeat;
-    min-width: 551px;
-    min-height: 272px;
     background-size: cover;
     position: relative;
 }
-.last-section-image-div-inner{
-    position: absolute;
-    bottom: 0;
-    left: 100px;
-    margin: 30px;
+.download-inner-div{
+    padding: 40px 25px;
+    width: 62%;
+    margin: 0px auto;
+    margin-top: 85px;
 }
-.last-section-image-div-inner h3{
+.download-div .inner-left{
     float: left;
     color: #ffffff;
-    font-size: 33px;
-    line-height: 33px;
-    margin-right: 50px;
     text-transform: uppercase;
-    font-weight: 900;
+    font-size: 24px;
+    line-height: 35px;
 }
-.last-section-image-div-inner a{
+.download-div .inner-right-icon{
+    float: right;
+    margin-top: 10px;
+}
+.inner-right-icon{
     display: inline-block;
-    float: left;
-}
-.guide{
-    display: block;
+    background: url("images/download_guide_logo_alt.png") no-repeat;
+    padding: 30px;
 }
 /* footer section */
 #footer-section{
@@ -540,20 +561,21 @@
         font-size: 50px;
     }
     /* image section */
+    .four-images-div{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .download-div{
+        min-width: 100%;
+        background-size: 100% 100%;
+    }
+    .image-div span{
+        padding: 50px 60px;
+        margin: 0;
+
+    }
     .images-wrapper{
-        margin: 0px;
-    }
-    .last-section-image-div{
-        margin:13px ;
-    }
-    .last-section-image-div-content{
-        /* float: none; */
-        width: 100%;
-        background-size: cover;
-        margin: 0px;
-    }
-    .last-section-image-div img {
-        width: 117px;
+        margin-left: 0px;
     }
     /* footer */
     .footer-content{
