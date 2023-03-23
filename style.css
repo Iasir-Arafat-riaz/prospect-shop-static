@@ -19,15 +19,11 @@
     width: 33%;
     float: left;
 }
-.header-left a{
-    padding: 20px 0;
+.header-logo{
     display: inline-block;
     text-decoration: none;
     color: #000000;
-}
-.hidden-icon{
-    display: none;
-    float: right;  
+    margin-top: 23px;
 }
 .header-logo img{
     float: left;
@@ -43,7 +39,7 @@
 }
 .header-right{
     width: 67%;
-    float: left;
+    float: right;
 }
 .header-navbar{
     padding: 20px 0;
@@ -60,7 +56,7 @@
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
-    line-height: 22px;
+    line-height: 24px;
     color: #ffffff;
     margin-right: 45px;
     padding-right: 5px;
@@ -83,6 +79,10 @@
     margin-left: 10px;
     font-weight: 900;
     padding-right: 45px;
+}
+.hidden-icon{
+    display: none;
+    float: right;  
 }
 /* banner section */
 #banner-section{
@@ -109,7 +109,7 @@
     bottom: 50px;
     color: #5e5d5d;
     font-size: 22px;
-    line-height: 22px;
+    line-height: 32px;
 }
 .banner-right{
     width: 42%;
@@ -194,11 +194,7 @@
 #about-section{
     background-color: #4c971a;
 }
-.about-section-wrapper,
-.client-section-wrapper{
-    padding: 60px 0;
-}
-.about-section-wrapper h2{
+.about-section-title h2{
     float: left;
     color: #ffffff;
     font-size: 60px;
@@ -222,11 +218,8 @@
     float: left;
    margin-top: 12px;
    font-size: 32px;
-   line-height: 32px;
+   line-height: 35px;
    color: #ffffff;
-}
-.about-card-wrapper{
-    margin-top: 30px;
 }
 .about-card{
     float: left;
@@ -236,7 +229,7 @@
 .about-card h3{
     text-transform: uppercase;
     font-size: 27px;
-    line-height: 27px;
+    line-height: 32px;
     color: #ffffff;
     font-weight: 600;
     height: 100px;
@@ -251,7 +244,7 @@
     margin-top: 30px;
 }
 .about-card-inner-content-right{
-    margin-right: 18%;
+    margin-right: 14%;
     margin-top: 30px;
     margin-left: 12%;
 }
@@ -270,24 +263,30 @@
 .about-card .card-description{
     
     color: #ffffff;
-    font-size: 22px;
-    line-height:22px ;
+    font-size: 21px;
+    line-height: 22px;
     font-weight: 200;
-    padding-right: 16px;
+    padding-right: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 6; /* number of lines to show */
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
-    padding-bottom: 10px;
+}
+.client-say-title, 
+.about-section-title{
+    padding: 60px 0;
 }
 /* client section */
-.client-section-wrapper h2{
+#client-section{
+    margin-bottom: 60px;
+}
+.client-say-title h2{
     float: left;
     color: #4c971a;
     font-size: 60px;
     font-weight: 300;
-    line-height: 60px;
+    line-height: 66px;
 }
 .client-prospect-shop-title-right{
     float: right;
@@ -306,7 +305,7 @@
     float: left;
    margin-top: 12px;
    font-size: 32px;
-   line-height: 32px;
+   line-height: 35px;
    color: #000000;
 }
 .client-card{
@@ -314,9 +313,9 @@
     width: 33.33%;
     text-align: center;
 }
-.clients-card-wrapper{
-    margin-top: 80px;
-    margin-right: -60px;
+.clients-card-wrapper,
+.about-card-wrapper{
+    margin: 0px;
 }
 .client-card-inner-content{
     margin-right: 195px;
@@ -393,7 +392,6 @@
     min-width: 33%;
     background: url("images/container_bg_alt.png") no-repeat;
     background-size: cover;
-    position: relative;
 }
 .download-inner-div{
     padding: 40px 25px;
@@ -428,19 +426,23 @@
    font-weight: 200;
    letter-spacing: 1px;
 }
-@media screen and (max-width: 576px) {
+.footer-content a{
+    text-decoration: none;
+    color: #ffffff;
+}
+@media screen and (max-width: 600px) {
     .header-logo{
         width: 100%;
-        padding: 40px 10px 9px;
+        padding: 15px;
     }
     .container{
         width: 100%;
     }
     .header-left{
-        width: 100%;
+        width: 80%;
         float: left;
     }
-    .header-right{
+    .header-navbar{
         display: none;
     }
     .header-left h3 {
@@ -449,8 +451,16 @@
         line-height: 15px;
         margin-left: 12px;
     }
+    .header-right{
+        width: 20%;
+    }
     .hidden-icon{
         display: block;
+        margin-right: 10px;
+    }
+    .hidden-icon img{
+        width: 45px;
+        margin-top: 45px;
         margin-right: 10px;
     }
     .header-logo  img{
@@ -519,11 +529,170 @@
         width: 100%;
         height: 100%;
     }
-    .about-section-title{
-        padding: 10px 20px;
+    .prospect-shop-title-right span,
+    .client-prospect-shop-title-right span{
+        margin-top: 30px;
+    }
+    .prospect-shop-title-right,.client-prospect-shop-title-right{
+        margin-right:0;
+    }
+    .prospect-shop-title-right h3{
+        display: none;
+    }
+    .about-card-inner-content,.about-card-inner-content-middle,.about-card-inner-content-right{
+        margin: 10px 40px;
+    }
+    /* client section */
+    .client-card{
+        width: 100%;
+    }
+    .clients-card-wrapper{
+        margin-right: 0px;
+    }
+    .client-card-inner-content{
+        margin: 30px 40px;
+    }
+    .client-comment{
+        min-height:fit-content;
+        margin-bottom: 50px;
+    }
+    .client-prospect-shop-title-right h3{
+        display: none;
+    }
+    .client-prospect-shop-title-right{
+        margin-right: 0px;
+    }
+    .about-section-title h2,.client-say-title h2{
+        font-size: 50px;
+        padding: 30px 20px;
+    }
+    /* image section */
+    .four-images-div{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .download-div{
+        min-width: 100%;
+        background-size: 100% 100%;
+    }
+    .image-div span{
+        padding: 50px 60px;
+        margin: 0;
+
+    }
+    .images-wrapper{
+        margin-left: 0px;
+    }
+    .download-inner-div{
+        padding: 35px 8px;
+    }
+    /* footer */
+    .footer-content{
+        padding: 30px 93px 15px;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 767px) and (min-width: 601px){
+    .header-logo{
+        width: 100%;
+        padding: 15px;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-left{
+        width: 80%;
+        float: left;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .header-left h3 {
+        margin-top: 17px;
+        font-size: 22px;
+        line-height: 15px;
+        margin-left: 12px;
+    }
+    .header-right{
+        width: 20%;
+    }
+    .hidden-icon{
+        display: block;
+        margin-right: 10px;
+    }
+    .hidden-icon img{
+        width: 45px;
+        margin-top: 45px;
+        margin-right: 10px;
+    }
+    .header-logo  img{
+        width: 50px;
+    }
+    #banner-section{
+        background-size: 167% 30%;
+    }
+    /* for banner section */
+    .banner-left{
+        width: 100%;
+        min-height: 50vh;
+        position: relative;
+    }
+    .banner-right-wrapper{
+        margin: 0 -10px
+    }
+    .banner-right{
+        width: 100%;
+        margin: 0;
+    }
+    .banner-left h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        padding: 50px;
+        margin-top: 30px;
+    }
+    .banner-left h3{
+        bottom: 0;
+        font-size: 16px;
+    line-height: 16px;
+    padding: 20px 30px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }
+    .form-header img{
+        width: 40px;
+    }
+    .form-header h3{
+        font-size: 22px;
+        line-height: 0;
+    }
+    .form-description{
+        font-size: 16px;
+    }
+    .download-guide-div h3{
+        font-size: 26px;
+    }
+    .download-guide-div {
+        margin-top: 10px;
+        padding: 20px 16px;
+        /* margin-left: 20px; */
+    }
+    .download-guide-div a img{
+        width: 50px;
+    }
+    .form-description-last{
+        margin-top: 16px;
+        padding: 0;
+        font-size: 17px;
+    }
+    /* for about */
+    .about-card{
+        width: 100%;
+        height: 100%;
     }
     .prospect-shop-title-right span{
-        margin-right: 0px;
+        margin-top: 30px;
     }
     .prospect-shop-title-right{
         margin-right:0;
@@ -554,12 +723,14 @@
     .client-prospect-shop-title-right{
         margin-right: 0px;
     }
-    .client-say-title{
-        padding: 10px 20px;
-    }
-    .about-section-wrapper h2,.client-section-wrapper h2{
+    .about-section-title h2,.client-say-title h2{
         font-size: 50px;
+        padding: 30px 20px;
     }
+    .about-section-title,
+    .client-say-title{
+        padding: 60px;
+    } 
     /* image section */
     .four-images-div{
         min-width: 100%;
@@ -581,5 +752,245 @@
     .footer-content{
         padding: 30px 93px 15px;
         text-align: center;
+    }
+  }
+  @media only screen and (max-width: 991px) and (min-width: 768px){
+    .header-logo{
+        width: 100%;
+        padding: 15px;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-left{
+        width: 80%;
+        float: left;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .header-left h3 {
+        margin-top: 17px;
+        font-size: 22px;
+        line-height: 15px;
+        margin-left: 12px;
+    }
+    .header-right{
+        width: 20%;
+    }
+    .hidden-icon{
+        display: block;
+        margin-right: 10px;
+    }
+    .hidden-icon img{
+        width: 45px;
+        margin-top: 45px;
+        margin-right: 10px;
+    }
+    .header-logo  img{
+        width: 50px;
+    }
+    #banner-section{
+        background-size: 167% 30%;
+    }
+    /* for banner section */
+    .banner-left{
+        width: 100%;
+        min-height: 50vh;
+        position: relative;
+    }
+    .banner-right-wrapper{
+        margin: 0 -10px
+    }
+    .banner-right{
+        width: 100%;
+        margin: 0;
+    }
+    .banner-left h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        padding: 50px;
+        margin-top: 30px;
+    }
+    .banner-left h3{
+        bottom: 0;
+        font-size: 16px;
+    line-height: 16px;
+    padding: 20px 30px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }
+    .form-header img{
+        width: 40px;
+    }
+    .form-header h3{
+        font-size: 22px;
+        line-height: 0;
+    }
+    .form-description{
+        font-size: 16px;
+    }
+    .download-guide-div h3{
+        font-size: 26px;
+    }
+    .download-guide-div {
+        margin-top: 10px;
+        padding: 20px 16px;
+        /* margin-left: 20px; */
+    }
+    .download-guide-div a img{
+        width: 50px;
+    }
+    .form-description-last{
+        margin-top: 16px;
+        padding: 0;
+        font-size: 17px;
+    }
+    /* for about */
+    .about-card{
+        width: 100%;
+        height: 100%;
+    }
+    .prospect-shop-title-right span,
+    .client-prospect-shop-title-right span{
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    .prospect-shop-title-right{
+        margin-right:0;
+    }
+    .prospect-shop-title-right h3{
+        display: none;
+    }
+    .about-card-inner-content,.about-card-inner-content-middle,.about-card-inner-content-right{
+        margin: 10px 40px;
+    }
+    /* client section */
+    .client-card{
+        width: 100%;
+    }
+    .clients-card-wrapper{
+        margin-right: 0px;
+    }
+    .client-card-inner-content{
+        margin: 30px 40px;
+    }
+    .client-comment{
+        min-height:fit-content;
+        margin-bottom: 50px;
+    }
+    .client-prospect-shop-title-right h3{
+        display: none;
+    }
+    .client-prospect-shop-title-right{
+        margin-right: 0px;
+    }
+    .about-section-title h2,.client-say-title h2{
+        font-size: 50px;
+        padding: 30px 20px;
+    }
+    .about-section-title,
+    .client-say-title{
+        padding: 60px 100px;
+    } 
+    /* image section */
+    .four-images-div{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .download-div{
+        min-width: 100%;
+        background-size: 100% 100%;
+    }
+    .image-div span{
+        padding: 50px 60px;
+        margin: 0;
+
+    }
+    .images-wrapper{
+        margin-left: 0px;
+    }
+    /* footer */
+    .footer-content{
+        padding: 30px 93px 15px;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 1199px) and (min-width: 992px){
+    .header-logo{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .container{
+        width: 90%;
+    }
+    .header-left{
+        width: 35%;
+        float: left;
+    }
+    .header-right{
+        width: 65%;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .header-left h3 {
+        /* margin-top: 17px; */
+        font-size: 22px;
+        line-height: 40px;
+        /* margin-left: 12px; */
+    }
+    .header-navbar{
+        display: block;
+    }
+    .telephone{
+        padding-right: 25px;
+        font-size: 27px;
+    }
+    .navbar-ul a{
+        margin-right: 20px;
+    }
+    /* banner section */
+    .banner-form-div{
+        padding: 15px 0px 80px;
+    }
+    .form-header img{
+        width: 50px;
+    }
+    .form-header h3{
+        font-size: 28px;
+        margin-top: 7px;
+    }
+    .download-guide-div{
+        padding: 20px;
+    }
+    .prospect-shop-title-right,
+    .client-prospect-shop-title-right{
+        margin-right: 60px;
+    }
+    .client-card-inner-content {
+        margin-right: 15%;
+    }
+    /* image section */
+    .images-wrapper{
+        margin: 0px;
+    }
+    .four-images-div{
+        min-width: 60%;
+    }
+    .image-div span{
+        margin: 0px;
+    }
+    .download-div{
+        min-width: 40%;
+    }
+    .image-div span {
+        padding: 48px 62px;
+    }
+    .download-inner-div{
+        padding: 14px 21px;
+        width: 80%;
     }
   }
