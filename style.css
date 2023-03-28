@@ -1001,7 +1001,21 @@
     .header-right{
         width: 60%;
     }
-    .client-card-inner-content {
+    .navbar-ul a {
+        margin-right: 30PX;
+       }
+    .header-logo h3{
+        margin-top: 0PX;
+        font-size: 32px;
+        line-height: 78px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }    
+    .form-header h3{
+        font-size: 25px;
+    }
+    .client-card-inner-content{
         margin-right: 25%;
     }
     .images-wrapper{
