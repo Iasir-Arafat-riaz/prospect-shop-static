@@ -1,0 +1,1046 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+.clear-float{
+    clear: both;
+}
+#header-section{
+    background: url("images/header_bg.png");
+    min-height:123px;
+}
+.header-left{
+    width: 33%;
+    float: left;
+}
+.header-logo{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 23px;
+}
+.header-logo img{
+    float: left;
+    /* display: inline-block */
+}
+.header-logo h3{
+    font-family: sans-serif;
+    float: left;
+    margin-top: 17px;
+    font-size: 37px;
+    line-height: 44px;
+    margin-left: 20px;
+}
+.header-right{
+    width: 67%;
+    float: right;
+}
+.header-navbar{
+    padding: 20px 0;
+}
+.navbar-ul{
+    float: right;
+    margin-top: 10px;
+}
+.navbar-ul li{
+    float: left;
+    list-style: none;
+}
+.navbar-ul a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 45px;
+    padding-right: 5px;
+}
+.cell-number-div{
+    float: right;
+    margin-bottom: 7px;
+}
+.call-text{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+}
+.telephone{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 10px;
+    font-weight: 900;
+    padding-right: 45px;
+}
+.hidden-icon{
+    display: none;
+    float: right;  
+}
+/* banner section */
+#banner-section{
+    background: url("images/body_bg.jpg") no-repeat;
+    background-size: 100% 100%; 
+}
+#banner-section .container{
+    position: relative;
+}
+.banner-left{
+    width: 58%;
+    float: left;
+}
+.banner-left h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    padding-right: 190px;
+    margin-top: 230px;
+}
+.banner-left h3{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    color: #5e5d5d;
+    font-size: 22px;
+    line-height: 32px;
+}
+.banner-right{
+    width: 42%;
+    float: left;
+    background: url("images/container_bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.banner-form-div{
+    padding: 20px 20px 113px;
+    width: 70%;
+    margin: 0 auto;
+}
+.banner-form-div form{
+    margin-top: 20px;
+}
+.form-description{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 21px;
+}
+.banner-form-div label{
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+.banner-form-div input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 17px 10px;
+    border: 0px;
+    border-radius: 3px;
+}
+.form-header{
+    margin-top: 30px;
+}
+.form-header a{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+.form-header h3{
+    float: left;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 34px;
+    color: #ffffff;
+}
+.download-guide-div{
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 20px 40px;
+}
+.download-guide-div h3{
+    float: left;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.download-guide-div a img{
+    width: 52px;
+}
+.download-guide-div a{
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+.form-description-last{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 42px;
+}
+/* about section */
+#about-section{
+    background-color: #4c971a;
+}
+.about-section-title h2{
+    float: left;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    line-height: 60px;
+}
+.prospect-shop-title-right{
+    float: right;
+    margin-right: 140px;
+}
+.prospect-shop-title-right span{ display:block;
+    float: left;
+    background: url("images/logo_p.png")no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.prospect-shop-title-right h3{
+    float: left;
+   margin-top: 12px;
+   font-size: 32px;
+   line-height: 35px;
+   color: #ffffff;
+}
+.about-card{
+    float: left;
+    width: 33.33%;
+    height: 390px;
+}
+.about-card h3{
+    text-transform: uppercase;
+    font-size: 27px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 600;
+    height: 100px;
+}
+.about-card-inner-content{
+    margin-right: 29%;
+    margin-top: 30px;
+}
+.about-card-inner-content-middle{
+    margin-right: 22%;
+    margin-left: 8%;
+    margin-top: 30px;
+}
+.about-card-inner-content-right{
+    margin-right: 14%;
+    margin-top: 30px;
+    margin-left: 12%;
+}
+.about-card-icon-header{
+    height: 70px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.about-card-icon-header img{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.about-card .card-description{
+    
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: 200;
+    padding-right: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.client-say-title, 
+.about-section-title{
+    padding: 60px 0;
+}
+/* client section */
+#client-section{
+    margin-bottom: 60px;
+}
+.client-say-title h2{
+    float: left;
+    color: #4c971a;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 66px;
+}
+.client-prospect-shop-title-right{
+    float: right;
+    margin-right: 140px;
+}
+.client-prospect-shop-title-right span{
+    display: inline-block;
+    background: url("images/logo_p_alt.png")no-repeat;
+    background-size: cover;
+   width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+}
+.client-prospect-shop-title-right h3{
+    float: left;
+   margin-top: 12px;
+   font-size: 32px;
+   line-height: 35px;
+   color: #000000;
+}
+.client-card{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.clients-card-wrapper,
+.about-card-wrapper{
+    margin: 0px;
+}
+.client-card-inner-content{
+    margin-right: 130px;
+}
+.client-card-image-header .client-image{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.client-card-image-header{
+    margin-bottom: 35px;
+}
+.client-card-image-header h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 100;
+    color: #4c971a;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+.client-card-image-header h5{
+    font-size: 20px;
+    line-height: 30px;
+    color: #808080;
+}
+.client-designation{
+    font-size: 22px;
+    line-height: 22px;
+}
+.client-comment{
+    font-size: 22px;
+    line-height: 28px;
+    min-height: 270px;
+}
+/* image section */
+.images-wrapper {
+    margin-left: -70px;
+}
+.four-images-div{
+    float: left;
+    min-width: 67%;
+    margin-top: 80px;
+}
+.four-images-div .image-div{
+    display: inline-block;
+    min-width: 24%;
+}
+.image-div span{
+    display: inline-block;
+    padding: 55px 75px;
+    margin-left: 60px;
+}
+.image-div .image-1{
+    background: url("images/grey_logo_1.png") no-repeat;
+    background-size:100% 100%;
+}
+.image-div .image-2{
+    background: url("images/grey_logo_2.png") no-repeat;
+    background-size:100% 100%;
+}
+.image-div .image-3{
+    background: url("images/grey_logo_3.png") no-repeat;
+    background-size:100% 100%;
+}
+.image-div .image-4{
+    background: url("images/grey_logo_4.png") no-repeat;
+    background-size:100% 100%;
+}
+.download-div{
+    float: left;
+    min-width: 33%;
+    background: url("images/container_bg_alt.png") no-repeat;
+    background-size: cover;
+}
+.download-inner-div{
+    padding: 40px 25px;
+    width: 62%;
+    margin: 0px auto;
+    margin-top: 85px;
+}
+.download-div .inner-left{
+    float: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 35px;
+}
+.download-div .inner-right-icon{
+    float: right;
+    margin-top: 10px;
+}
+.inner-right-icon{
+    display: inline-block;
+    background: url("images/download_guide_logo_alt.png") no-repeat;
+    padding: 30px;
+}
+/* footer section */
+#footer-section{
+    background: url("images/footer.png");
+    min-height: 107px;
+}
+.footer-content{
+   color: #ffffff;
+   padding-top: 50px;
+   font-weight: 200;
+   letter-spacing: 1px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+    .header-logo{
+        width: 100%;
+        padding: 15px;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-left{
+        width: 80%;
+        float: left;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .header-left h3 {
+        margin-top: 17px;
+        font-size: 22px;
+        line-height: 15px;
+        margin-left: 12px;
+    }
+    .header-right{
+        width: 20%;
+    }
+    .hidden-icon{
+        display: block;
+        margin-right: 10px;
+    }
+    .hidden-icon img{
+        width: 45px;
+        margin-top: 45px;
+        margin-right: 10px;
+    }
+    .header-logo  img{
+        width: 50px;
+    }
+    #banner-section{
+        background-size: 167% 30%;
+    }
+    /* for banner section */
+    .banner-left{
+        width: 100%;
+        min-height: 50vh;
+        position: relative;
+    }
+    .banner-right-wrapper{
+        margin: 0 -10px
+    }
+    .banner-right{
+        width: 100%;
+        margin: 0;
+    }
+    .banner-left h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        padding: 50px;
+        margin-top: 30px;
+    }
+    .banner-left h3{
+        bottom: 0;
+        font-size: 16px;
+    line-height: 16px;
+    padding: 20px 30px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }
+    .form-header img{
+        width: 40px;
+    }
+    .form-header h3{
+        font-size: 22px;
+        line-height: 0;
+    }
+    .form-description{
+        font-size: 16px;
+    }
+    .download-guide-div h3{
+        font-size: 26px;
+    }
+    .download-guide-div {
+        margin-top: 10px;
+        padding: 20px 16px;
+        /* margin-left: 20px; */
+    }
+    .download-guide-div a img{
+        width: 50px;
+    }
+    .form-description-last{
+        margin-top: 16px;
+        padding: 0;
+        font-size: 17px;
+    }
+    /* for about */
+    .about-card{
+        width: 100%;
+        height: 100%;
+    }
+    .prospect-shop-title-right span,
+    .client-prospect-shop-title-right span{
+        margin-top: 30px;
+    }
+    .prospect-shop-title-right,.client-prospect-shop-title-right{
+        margin-right:0;
+    }
+    .prospect-shop-title-right h3{
+        display: none;
+    }
+    .about-card-inner-content,.about-card-inner-content-middle,.about-card-inner-content-right{
+        margin: 10px 40px;
+    }
+    /* client section */
+    .client-card{
+        width: 100%;
+    }
+    .clients-card-wrapper{
+        margin-right: 0px;
+    }
+    .client-card-inner-content{
+        margin: 30px 40px;
+    }
+    .client-comment{
+        min-height:fit-content;
+        margin-bottom: 50px;
+    }
+    .client-prospect-shop-title-right h3{
+        display: none;
+    }
+    .client-prospect-shop-title-right{
+        margin-right: 0px;
+    }
+    .about-section-title h2,.client-say-title h2{
+        font-size: 50px;
+        padding: 30px 20px;
+    }
+    /* image section */
+    .four-images-div{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .download-div{
+        min-width: 100%;
+        background-size: 100% 100%;
+    }
+    .image-div span{
+        padding: 50px 60px;
+        margin: 0;
+
+    }
+    .images-wrapper{
+        margin-left: 0px;
+    }
+    .download-inner-div{
+        padding: 35px 8px;
+    }
+    /* footer */
+    .footer-content{
+        padding: 30px 93px 15px;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 767px) and (min-width: 601px){
+    .header-logo{
+        width: 100%;
+        padding: 15px;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-left{
+        width: 80%;
+        float: left;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .header-left h3 {
+        margin-top: 17px;
+        font-size: 22px;
+        line-height: 15px;
+        margin-left: 12px;
+    }
+    .header-right{
+        width: 20%;
+    }
+    .hidden-icon{
+        display: block;
+        margin-right: 10px;
+    }
+    .hidden-icon img{
+        width: 45px;
+        margin-top: 45px;
+        margin-right: 10px;
+    }
+    .header-logo  img{
+        width: 50px;
+    }
+    #banner-section{
+        background-size: 167% 30%;
+    }
+    /* for banner section */
+    .banner-left{
+        width: 100%;
+        min-height: 50vh;
+        position: relative;
+    }
+    .banner-right-wrapper{
+        margin: 0 -10px
+    }
+    .banner-right{
+        width: 100%;
+        margin: 0;
+    }
+    .banner-left h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        padding: 50px;
+        margin-top: 30px;
+    }
+    .banner-left h3{
+        bottom: 0;
+        font-size: 16px;
+    line-height: 16px;
+    padding: 20px 30px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }
+    .form-header img{
+        width: 40px;
+    }
+    .form-header h3{
+        font-size: 22px;
+        line-height: 0;
+    }
+    .form-description{
+        font-size: 16px;
+    }
+    .download-guide-div h3{
+        font-size: 26px;
+    }
+    .download-guide-div {
+        margin-top: 10px;
+        padding: 20px 16px;
+        /* margin-left: 20px; */
+    }
+    .download-guide-div a img{
+        width: 50px;
+    }
+    .form-description-last{
+        margin-top: 16px;
+        padding: 0;
+        font-size: 17px;
+    }
+    /* for about */
+    .about-card{
+        width: 100%;
+        height: 100%;
+    }
+    .prospect-shop-title-right span{
+        margin-top: 30px;
+    }
+    .prospect-shop-title-right{
+        margin-right:0;
+    }
+    .prospect-shop-title-right h3{
+        display: none;
+    }
+    .about-card-inner-content,.about-card-inner-content-middle,.about-card-inner-content-right{
+        margin: 10px 40px;
+    }
+    /* client section */
+    .client-card{
+        width: 100%;
+    }
+    .clients-card-wrapper{
+        margin-right: 0px;
+    }
+    .client-card-inner-content{
+        margin: 30px 40px;
+    }
+    .client-comment{
+        min-height:fit-content;
+        margin-bottom: 50px;
+    }
+    .client-prospect-shop-title-right h3{
+        display: none;
+    }
+    .client-prospect-shop-title-right{
+        margin-right: 0px;
+    }
+    .about-section-title h2,.client-say-title h2{
+        font-size: 50px;
+        padding: 30px 20px;
+    }
+    .about-section-title,
+    .client-say-title{
+        padding: 60px;
+    } 
+    /* image section */
+    .four-images-div{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .download-div{
+        min-width: 100%;
+        background-size: 100% 100%;
+    }
+    .image-div span{
+        padding: 50px 60px;
+        margin: 0;
+
+    }
+    .images-wrapper{
+        margin-left: 0px;
+    }
+    /* footer */
+    .footer-content{
+        padding: 30px 93px 15px;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 991px) and (min-width: 768px){
+    .header-logo{
+        width: 100%;
+        padding: 15px;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-left{
+        width: 80%;
+        float: left;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .header-left h3 {
+        margin-top: 17px;
+        font-size: 22px;
+        line-height: 15px;
+        margin-left: 12px;
+    }
+    .header-right{
+        width: 20%;
+    }
+    .hidden-icon{
+        display: block;
+        margin-right: 10px;
+    }
+    .hidden-icon img{
+        width: 45px;
+        margin-top: 45px;
+        margin-right: 10px;
+    }
+    .header-logo  img{
+        width: 50px;
+    }
+    #banner-section{
+        background-size: 167% 30%;
+    }
+    /* for banner section */
+    .banner-left{
+        width: 100%;
+        min-height: 50vh;
+        position: relative;
+    }
+    .banner-right-wrapper{
+        margin: 0 -10px
+    }
+    .banner-right{
+        width: 100%;
+        margin: 0;
+    }
+    .banner-left h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        padding: 50px;
+        margin-top: 30px;
+    }
+    .banner-left h3{
+        bottom: 0;
+        font-size: 16px;
+    line-height: 16px;
+    padding: 20px 30px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }
+    .form-header img{
+        width: 40px;
+    }
+    .form-header h3{
+        font-size: 22px;
+        line-height: 0;
+    }
+    .form-description{
+        font-size: 16px;
+    }
+    .download-guide-div h3{
+        font-size: 26px;
+    }
+    .download-guide-div {
+        margin-top: 10px;
+        padding: 20px 16px;
+        /* margin-left: 20px; */
+    }
+    .download-guide-div a img{
+        width: 50px;
+    }
+    .form-description-last{
+        margin-top: 16px;
+        padding: 0;
+        font-size: 17px;
+    }
+    /* for about */
+    .about-card{
+        width: 100%;
+        height: 100%;
+    }
+    .prospect-shop-title-right span,
+    .client-prospect-shop-title-right span{
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    .prospect-shop-title-right{
+        margin-right:0;
+    }
+    .prospect-shop-title-right h3{
+        display: none;
+    }
+    .about-card-inner-content,.about-card-inner-content-middle,.about-card-inner-content-right{
+        margin: 10px 40px;
+    }
+    /* client section */
+    .client-card{
+        width: 100%;
+    }
+    .clients-card-wrapper{
+        margin-right: 0px;
+    }
+    .client-card-inner-content{
+        margin: 30px 40px;
+    }
+    .client-comment{
+        min-height:fit-content;
+        margin-bottom: 50px;
+    }
+    .client-prospect-shop-title-right h3{
+        display: none;
+    }
+    .client-prospect-shop-title-right{
+        margin-right: 0px;
+    }
+    .about-section-title h2,.client-say-title h2{
+        font-size: 50px;
+        padding: 30px 20px;
+    }
+    .about-section-title,
+    .client-say-title{
+        padding: 60px 100px;
+    } 
+    /* image section */
+    .four-images-div{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .download-div{
+        min-width: 100%;
+        background-size: 100% 100%;
+    }
+    .image-div span{
+        padding: 50px 60px;
+        margin: 0;
+
+    }
+    .images-wrapper{
+        margin-left: 0px;
+    }
+    /* footer */
+    .footer-content{
+        padding: 30px 93px 15px;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 1199px) and (min-width: 992px){
+    .header-logo{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .container{
+        width: 90%;
+    }
+    .header-left{
+        width: 35%;
+        float: left;
+    }
+    .header-right{
+        width: 65%;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .header-left h3 {
+        /* margin-top: 17px; */
+        font-size: 22px;
+        line-height: 40px;
+        /* margin-left: 12px; */
+    }
+    .header-navbar{
+        display: block;
+    }
+    .telephone{
+        padding-right: 25px;
+        font-size: 27px;
+    }
+    .navbar-ul a{
+        margin-right: 20px;
+    }
+    /* banner section */
+    .banner-form-div{
+        padding: 15px 0px 80px;
+    }
+    .form-header img{
+        width: 50px;
+    }
+    .form-header h3{
+        font-size: 28px;
+        margin-top: 7px;
+    }
+    .download-guide-div{
+        padding: 20px;
+    }
+    .prospect-shop-title-right,
+    .client-prospect-shop-title-right{
+        margin-right: 60px;
+    }
+    .client-card-inner-content {
+        margin-right: 15%;
+    }
+    /* image section */
+    .images-wrapper{
+        margin: 0px;
+    }
+    .four-images-div{
+        min-width: 60%;
+    }
+    .image-div span{
+        margin: 0px;
+    }
+    .download-div{
+        min-width: 40%;
+    }
+    .image-div span {
+        padding: 48px 62px;
+    }
+    .download-inner-div{
+        padding: 14px 21px;
+        width: 75%;
+    }
+  }
+  @media only screen and (max-width: 1599px) and (min-width: 1200px){
+    .container{
+        width: 85%;
+    }
+    .header-left{
+        width: 40%;
+    }
+    .header-right{
+        width: 60%;
+    }
+    .navbar-ul a {
+        margin-right: 30PX;
+       }
+    .header-logo h3{
+        margin-top: 0PX;
+        font-size: 32px;
+        line-height: 78px;
+    }
+    .banner-form-div{
+        width: 80%;
+    }    
+    .form-header h3{
+        font-size: 25px;
+    }
+    .client-card-inner-content{
+        margin-right: 25%;
+    }
+    .images-wrapper{
+        margin: 0px;
+    }
+    .four-images-div{
+        min-width: 60%;
+    }
+    .image-div span{
+        margin: 0px;
+    }
+    .download-div{
+        min-width: 40%;
+    }
+    .image-div span {
+        padding: 48px 62px;
+    }
+    .download-inner-div{
+        padding: 14px 21px;
+        width: 70%;
+    }
+  }
+  /* for large screen */
+  @media only screen and (min-width: 1600px){
+   .container{
+    min-width: 85%;
+   }
+  }
